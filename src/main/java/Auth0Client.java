@@ -30,7 +30,7 @@ public class Auth0Client {
 
         for (Auth0User user : auth0Users) {
 
-            // Throttling (due the
+            // Throttling
             Thread.sleep(500);
 
             if (!this.deleteUser(auth0Token, user.user_id)) {
