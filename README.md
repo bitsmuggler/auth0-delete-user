@@ -15,4 +15,4 @@ Delete Auth0 users using the Auth0 user export file
     -i <<path to the import file>> 
     -c <<client id>>
     -s <<client secret 
-    -a <<audience id>>` 
+    -a <<audience id>>` o
